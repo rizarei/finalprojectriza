@@ -52,13 +52,4 @@ function newElement() {
       div.style.display = "none";
     }
   }
-  // ternary if
-let items = (localStorage.getItem('myInput')) ? JSON.parse(localStorage.getItem('myInput')) : []
-
-form.addEventListener('add', function (e) {
-    items.push(input.value);
-
-    localStorage.setItem('myInput', JSON.stringify(items));
-})
-
-} 
+  
